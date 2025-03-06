@@ -1,8 +1,8 @@
 {
   "name": "send-email",
   "version": "1.0.0",
-  "main": "build/index.js",
-  "bin": "build/index.js",
+  "main": "index.js",
+  "bin": "index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -24,7 +24,7 @@
   },
   "type": "module",
   "scripts": {
-    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "build": "tsc",
     "pkg": "pkg . --output dist/email-mcp"
   },
   "pkg": {
